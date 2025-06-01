@@ -6,9 +6,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const HEYGEN_API_KEY = "Aapki_API_KEY";
-const AVATAR_ID = "aapka_avatar_id";
-const VOICE_ID = "aapka_voice_id";
+const HEYGEN_API_KEY = "ZTVlNTQ4YWU2MGFiNGQwZDhmNWFhNGU2ZTQ0NzMzYzMtMTc0NzQ4MTYxMA==";
+const AVATAR_ID = "19225cfb89f64e58a664912a52268362";
+const VOICE_ID = "35080bd3c9c14110b52a832b362e838f";
 
 app.post("/generate", async (req, res) => {
   const { script_text } = req.body;
